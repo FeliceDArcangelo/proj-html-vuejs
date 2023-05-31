@@ -31,7 +31,7 @@
 .pre-container{
     background-color: $my-second-neavy;
     .container{
-    max-width: 1000px;
+    max-width: 900px;
     margin: auto;
     padding-bottom: 6em;
     padding-top: 6em;
