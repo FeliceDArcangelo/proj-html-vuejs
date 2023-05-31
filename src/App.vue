@@ -1,3 +1,6 @@
+  
+  <!-- LEGGERE IL README -->
+
   <script>
   import AppHeader from './components/AppHeader.vue';
   import AppMain from './components/AppMain.vue';
@@ -26,3 +29,5 @@
   box-sizing: border-box;
  } 
 </style>
+
+
