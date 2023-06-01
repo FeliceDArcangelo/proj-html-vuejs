@@ -65,11 +65,13 @@
         flex-wrap: wrap;
         div{
             width: 50%;
-            aspect-ratio: 1/1;
             position: relative;
+            
             img{
-                object-fit: contain;
+                object-fit: cover;
+                width: 100%;
                 height: 100%;
+                
             }
             .card-name-after{
                 position: absolute;
@@ -79,8 +81,9 @@
                 color: $my-first-white;
                 font-size: large;
                 width: 100%;
+                height: 100%;
                 text-align: center;
-                padding-top: 50%;
+                padding-top: 40%;
                 display: none;
             }
             &:hover .card-name-after{

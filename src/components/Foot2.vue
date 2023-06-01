@@ -20,7 +20,7 @@ import store from '../store'
             </div>
         </div>
         <div class="social">
-            <font-awesome-icon icon="fa-brands fa-twitter" />
+            
         </div>
     </div>
   </div>
@@ -32,6 +32,7 @@ import store from '../store'
 
 .pre-container{
     background-color: $my-first-neavy;
+    padding: 5em;
     .container{
         max-width: 700px;
         margin: auto;
@@ -42,6 +43,7 @@ import store from '../store'
             gap: .5em;
             color: $my-first-lille;
             font-size: .8rem;
+            padding: 2em;
             span{
                 color: $my-first-white;
             }
